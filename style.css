@@ -1,0 +1,32 @@
+
+
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(198, 129, 0);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#result {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}

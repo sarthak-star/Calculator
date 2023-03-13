@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <table id="calcu">
+            <tr>
+                <td colspan="3"><input type="text" id="result" value=" "></td>
+                <!-- clr() function will call clr to clear all value -->
+                <td><input type="button" class="buttons" value="c" onclick="clr()"> </td>
+            </tr>
+            <tr>
+                <!-- create button and assign value to each button -->
+                <!-- dis("1") will call function dis to display value -->
+                <td><input type="button" class="buttons" value="1" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="2" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="3" onclick="dis(value)" > 
+                             </td>
+                <td><input type="button" class="buttons" value="/" onclick="dis(value)" >
+                             </td>
+            </tr>
+            <tr>
+                <td><input type="button" class="buttons" value="4" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="5" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="6" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="*" onclick="dis(value)" >
+                             </td>
+            </tr>
+            <tr>
+                <td><input type="button" class="buttons" value="7" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="8" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="9" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="-" onclick="dis(value)" >
+                             </td>
+            </tr>
+            <tr>
+                <td><input type="button" class="buttons" value="0" onclick="dis(value)" >
+                             </td>
+                <td><input type="button" class="buttons" value="." onclick="dis(value)" >
+                             </td>
+                <!-- solve function call function solve to evaluate value -->
+                <td><input type="button" class="buttons" value="=" onclick="solveit()" >
+                             </td>
+      
+                <td><input type="button" class="buttons" value="+" onclick="dis(value)" >
+                             </td>
+            </tr>
+        </table>
+    </div>
+    
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
